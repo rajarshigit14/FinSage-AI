@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "types":["vite/client"],//helps to use the env variabvle without giving errors
 
     /* Linting */
     "strict": true,
