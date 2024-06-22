@@ -50,6 +50,7 @@ const gridTemplateSmallScreens = `
 
 const Dashboard = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
+  
   return (
     <Box
       width="100%"
