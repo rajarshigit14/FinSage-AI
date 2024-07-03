@@ -64,7 +64,7 @@
        <DashboardBox gridArea="d">
          <BoxHeader
            title="Operational vs Non-Operational Expenses"
-           sideText="+4%"
+           sideText="+8%"
          />
          <ResponsiveContainer width="100%" height="100%">
            <LineChart
@@ -113,7 +113,7 @@
          </ResponsiveContainer>
        </DashboardBox>
        <DashboardBox gridArea="e">
-         <BoxHeader title="Campaigns and Targets" sideText="+4%" />
+         <BoxHeader title="Campaigns and Targets" sideText="+6%" />
          <FlexBetween mt="0.25rem" gap="1.5rem" pr="1rem">
            <PieChart
              width={110}

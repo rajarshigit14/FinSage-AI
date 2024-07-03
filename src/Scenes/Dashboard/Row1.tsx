@@ -66,7 +66,7 @@
          <BoxHeader
            title="Revenue and Expenses"
            subtitle="top line represents revenue, bottom line represents expenses"
-           sideText="+4%"
+           sideText="+9%"
          />
          <ResponsiveContainer width="100%" height="100%">
            <AreaChart
@@ -141,7 +141,7 @@
          <BoxHeader
            title="Profit and Revenue"
            subtitle="top line represents revenue, bottom line represents expenses"
-           sideText="+4%"
+           sideText="+5%"
          />
          <ResponsiveContainer width="100%" height="100%">
            <LineChart
@@ -200,7 +200,7 @@
          <BoxHeader
            title="Revenue Month by Month"
            subtitle="graph representing the revenue month by month"
-           sideText="+4%"
+           sideText="+7%"
          />
          <ResponsiveContainer width="100%" height="100%">
            <BarChart
