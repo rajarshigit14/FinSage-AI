@@ -2,6 +2,7 @@ import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
 import Row3 from "./Row3";
+import Footer from "../../Components/Footer";
 
 const gridTemplateLargeScreens = `
   "a b c"
@@ -14,6 +15,7 @@ const gridTemplateLargeScreens = `
   "g h i"
   "g h j"
   "g h j"
+  "footer footer footer"
 `;
 const gridTemplateSmallScreens = `
   "a"
@@ -46,17 +48,19 @@ const gridTemplateSmallScreens = `
   "i"
   "j"
   "j"
+  "footer"
 `;
 
 const Dashboard = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
-  
+
   return (
     <Box
       width="100%"
       height="100%"
       display="grid"
       gap="1.5rem"
+      
       sx={
         isAboveMediumScreens
           ? {
@@ -74,7 +78,11 @@ const Dashboard = () => {
       <Row1 />
       <Row2 />
       <Row3 />
+      <Box sx={{ gridArea: "footer" }}>
+        <Footer />
+      </Box>
     </Box>
+    
   );
 };
 

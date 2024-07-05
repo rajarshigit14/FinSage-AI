@@ -15,7 +15,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline/> 
       {/* CssBaseLine--> Resets the css of the browser to default */}
-      <Box width="100%" height="100%" padding="1rem 2rem 4rem 2rem">
+      <Box width="100%" height="100%" padding="1rem 2rem 0 2rem">
         <Navbar /> 
         <Routes>
           <Route path="/" element={<Dashboard />} />
